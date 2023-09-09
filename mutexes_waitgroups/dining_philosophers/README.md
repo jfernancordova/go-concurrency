@@ -1,4 +1,6 @@
-# The Dining Philosophers
+## The Dining Philosophers
+
+Classic problem introduced by Dijkstra
 
 - Five philosophers live in a house together, and they always dine together at the same table, sitting in the same place.
 - They always eat a special kind of spaghetti which requires two forks.

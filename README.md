@@ -1,4 +1,4 @@
-# Concurrency in Go
+## Concurrency in Go
 
 ![Language](https://img.shields.io/badge/language-Go-orange.svg)&nbsp;
 
@@ -14,8 +14,6 @@ scalability, and reliability.
 
 ### Points
 
-In this project:
-
 - The fundamentals of concurrency in Go - Goroutines
 - Techniques that can be used to write concurrent programs
 - Concurrency patterns
@@ -24,12 +22,17 @@ In this project:
 
 ### Sections
 
-#### Goroutines
-- [WaitGroups](./waitgroup)
-
-#### Race Conditions
-- [Mutexes](./mutex)
+#### Mutexes & WaitGroups
+- [Mutex](./mutexes_waitgroups/mutex)
+- [WaitGroup](./mutexes_waitgroups/waitgroup)
+- **Problems**:
+  - [The Account Balance](./mutexes_waitgroups/account_balance)
+  - [The Dining Philosophers](./mutexes_waitgroups/dining_philosophers)
 
 #### Channels
-- [Producer–consumer problem](./producer_consumer)
-- [The Dining Philosophers](./dining_philosophers)
+- [Introduction](./channels)
+- [Select Statement](./channels/select_statement)
+- [Buffered Channel](./channels/buffered_channels)
+- **Problems**:
+  - [Producer–consumer problem](./channels/producer_consumer)
+  - [The Sleeping Barber problem](./channels/sleeping_barber)
