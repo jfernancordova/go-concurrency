@@ -22,7 +22,7 @@ scalability, and reliability.
 
 ### Sections
 
-#### Mutexes & WaitGroups
+#### Synchronization: Mutexes & WaitGroups
 - [Mutex](./mutexes_waitgroups/mutex)
 - [WaitGroup](./mutexes_waitgroups/waitgroup)
 - **Problems**:
